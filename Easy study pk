@@ -1,0 +1,351 @@
+DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Easy Study PK - Chapter 1</title>
+
+<style>
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:#f4f7fb;
+color:#222;
+}
+header{
+background:#123c69;
+color:white;
+text-align:center;
+padding:25px 10px;
+}
+.container{
+max-width:850px;
+margin:auto;
+padding:15px;
+}
+.card{
+background:white;
+margin:15px 0;
+padding:18px;
+border-radius:12px;
+box-shadow:0 2px 8px #ccc;
+}
+button{
+background:#123c69;
+color:white;
+border:0;
+padding:12px 15px;
+margin:5px;
+border-radius:7px;
+font-weight:bold;
+}
+.back{
+background:#555;
+}
+.page{
+display:none;
+}
+.page.active{
+display:block;
+}
+.question{
+background:#f5f7fa;
+padding:12px;
+margin:10px 0;
+border-left:4px solid #123c69;
+border-radius:6px;
+}
+.answer{
+margin-top:8px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>📚 Easy Study PK</h1>
+<p>Class 10 Physics</p>
+<p>Chapter 1 — Thermal Physics</p>
+</header>
+
+<div class="container">
+
+<!-- HOME -->
+<div id="home" class="page active">
+
+<div class="card">
+<h2>📖 Chapter 1 Exercise</h2>
+<p>Important questions with easy answers and solutions.</p>
+
+<button onclick="show('mcq')">❓ MCQs</button>
+<button onclick="show('short')">📝 Short Questions</button>
+<button onclick="show('constructed')">✍️ Constructed</button>
+<button onclick="show('comprehensive')">⭐ Comprehensive</button>
+<button onclick="show('numerical')">🔢 Numericals</button>
+</div>
+
+</div>
+
+
+<!-- MCQS -->
+<div id="mcq" class="page">
+
+<div class="card">
+<h2>❓ Multiple Choice Questions</h2>
+
+<div class="question">
+<b>Q1. When a copper rod is heated, what happens to its length?</b><br>
+A) Remains same<br>
+B) Increases<br>
+C) Decreases<br>
+D) Becomes double
+<div class="answer"><b>Answer: B — Increases</b></div>
+</div>
+
+<div class="question">
+<b>Q2. Increase in length per unit original length for each °C rise is called:</b><br>
+A) Cubic expansion<br>
+B) Volume expansion<br>
+C) Linear expansion coefficient<br>
+D) Mass expansion
+<div class="answer"><b>Answer: C</b></div>
+</div>
+
+<div class="question">
+<b>Q3. When a liquid changes into gas, the process is called:</b><br>
+A) Freezing<br>
+B) Condensation<br>
+C) Evaporation<br>
+D) Melting
+<div class="answer"><b>Answer: C — Evaporation</b></div>
+</div>
+
+<div class="question">
+<b>Q4. Which property tells how much heat a solid can absorb before its temperature changes significantly?</b><br>
+A) Density<br>
+B) Specific heat capacity<br>
+C) Colour<br>
+D) Hardness
+<div class="answer"><b>Answer: B</b></div>
+</div>
+
+<div class="question">
+<b>Q5. High-temperature superconducting materials are commonly based on:</b><br>
+A) Pure metals<br>
+B) Organic compounds<br>
+C) Ceramic materials<br>
+D) Liquid crystals
+<div class="answer"><b>Answer: C — Ceramic materials</b></div>
+</div>
+
+<button class="back" onclick="show('home')">⬅ Back</button>
+</div>
+</div>
+
+
+<!-- SHORT -->
+<div id="short" class="page">
+
+<div class="card">
+<h2>📝 Short Answer Questions</h2>
+
+<div class="question">
+<b>Q1. What factors affect thermal expansion of a solid?</b>
+<div class="answer"><b>Ans:</b> Material, original size and change in temperature.</div>
+</div>
+
+<div class="question">
+<b>Q2. What is latent heat of fusion?</b>
+<div class="answer"><b>Ans:</b> Heat required to change a unit mass of solid into liquid at its melting point without temperature change.</div>
+</div>
+
+<div class="question">
+<b>Q3. Why do different materials have different thermal expansion?</b>
+<div class="answer"><b>Ans:</b> Because different materials have different coefficients of thermal expansion.</div>
+</div>
+
+<div class="question">
+<b>Q4. How does evaporation produce cooling?</b>
+<div class="answer"><b>Ans:</b> High-energy particles escape from the liquid surface, so the remaining liquid becomes cooler.</div>
+</div>
+
+<div class="question">
+<b>Q5. What is latent heat of vaporization?</b>
+<div class="answer"><b>Ans:</b> Heat required to change unit mass of liquid into vapour at constant temperature.</div>
+</div>
+
+<button class="back" onclick="show('home')">⬅ Back</button>
+</div>
+</div>
+
+
+<!-- CONSTRUCTED -->
+<div id="constructed" class="page">
+
+<div class="card">
+<h2>✍️ Constructed Response</h2>
+
+<div class="question">
+<b>Q1. Why are expansion joints provided in bridges?</b>
+<div class="answer"><b>Ans:</b> They provide space for expansion and contraction caused by temperature changes.</div>
+</div>
+
+<div class="question">
+<b>Q2. Two liquids receive the same heat, but one heats faster. What does this tell us?</b>
+<div class="answer"><b>Ans:</b> The liquid that heats faster has a lower specific heat capacity, if the other conditions are the same.</div>
+</div>
+
+<div class="question">
+<b>Q3. Why does a liquid evaporate faster in dry air?</b>
+<div class="answer"><b>Ans:</b> Dry air contains less water vapour, so more molecules can escape from the liquid surface.</div>
+</div>
+
+<div class="question">
+<b>Q4. Why does ice stay at the same temperature while melting?</b>
+<div class="answer"><b>Ans:</b> The supplied heat is used as latent heat to change ice into water.</div>
+</div>
+
+<div class="question">
+<b>Q5. Why do electric transmission wires sag in summer and tighten in winter?</b>
+<div class="answer"><b>Ans:</b> Wires expand when heated and contract when cooled.</div>
+</div>
+
+<button class="back" onclick="show('home')">⬅ Back</button>
+</div>
+</div>
+
+
+<!-- COMPREHENSIVE -->
+<div id="comprehensive" class="page">
+
+<div class="card">
+<h2>⭐ Comprehensive Questions</h2>
+
+<div class="question">
+<b>Q1. Compare thermal expansion in solids, liquids and gases.</b>
+<div class="answer"><b>Ans:</b> Solids generally expand the least, liquids more, and gases the most when heated.</div>
+</div>
+
+<div class="question">
+<b>Q2. Give practical examples of thermal expansion.</b>
+<div class="answer"><b>Ans:</b> Expansion joints in bridges and gaps in railway tracks allow materials to expand and contract safely.</div>
+</div>
+
+<div class="question">
+<b>Q3. What is latent heat and why is it important?</b>
+<div class="answer"><b>Ans:</b> Latent heat changes the state of a substance without changing its temperature. It is important during melting and vaporization.</div>
+</div>
+
+<div class="question">
+<b>Q4. Why do solids, liquids and gases expand when heated?</b>
+<div class="answer"><b>Ans:</b> Heating increases the energy and average separation of their particles, causing expansion.</div>
+</div>
+
+<div class="question">
+<b>Q5. Why does water evaporate faster from a wide shallow dish?</b>
+<div class="answer"><b>Ans:</b> A wide shallow dish has a larger exposed surface area, so more molecules can escape.</div>
+</div>
+
+<button class="back" onclick="show('home')">⬅ Back</button>
+</div>
+</div>
+
+
+<!-- NUMERICALS -->
+<div id="numerical" class="page">
+
+<div class="card">
+<h2>🔢 Numerical Problems</h2>
+
+<div class="question">
+<b>Q1. A 1 m metal rod expands by 0.02 m when heated from 20°C to 120°C. Find its coefficient of linear expansion.</b>
+<div class="answer">
+ΔT = 120 − 20 = 100°C<br><br>
+α = ΔL / (LΔT)<br>
+α = 0.02 / (1 × 100)<br>
+<b>Answer = 2.0 × 10⁻⁴ °C⁻¹</b>
+</div>
+</div>
+
+<div class="question">
+<b>Q2. A 1 litre container of water is heated from 20°C to 80°C. If β = 2.1 × 10⁻⁴ °C⁻¹, find its final volume.</b>
+<div class="answer">
+ΔT = 60°C<br>
+ΔV = VβΔT<br>
+ΔV = 1 × 2.1×10⁻⁴ × 60<br>
+ΔV = 0.0126 L<br><br>
+<b>Final volume = 1.0126 L</b>
+</div>
+</div>
+
+<div class="question">
+<b>Q3. A steel rod is 2 m long at 20°C. If α = 1.2 × 10⁻⁵ °C⁻¹, find its length at 100°C.</b>
+<div class="answer">
+ΔT = 80°C<br>
+ΔL = LαΔT<br>
+ΔL = 2 × 1.2×10⁻⁵ × 80<br>
+ΔL = 0.00192 m<br><br>
+<b>Final length = 2.00192 m</b>
+</div>
+</div>
+
+<div class="question">
+<b>Q4. A steel bridge originally 100 m long expands by 5 cm. Find the temperature change. α = 1.2 × 10⁻⁵ °C⁻¹.</b>
+<div class="answer">
+ΔL = 5 cm = 0.05 m<br><br>
+ΔT = ΔL/(Lα)<br>
+ΔT = 0.05/(100 × 1.2×10⁻⁵)<br>
+<b>Answer ≈ 41.7°C</b>
+</div>
+</div>
+
+<div class="question">
+<b>Q5. Find the heat needed to raise 2 kg of iron from 20°C to 100°C. Specific heat = 450 J kg⁻¹ K⁻¹.</b>
+<div class="answer">
+ΔT = 80°C<br>
+Q = mcΔT<br>
+Q = 2 × 450 × 80<br>
+<b>Answer = 72,000 J = 72 kJ</b>
+</div>
+</div>
+
+<div class="question">
+<b>Q6. Find the heat required to melt 500 g ice at 0°C. Latent heat of fusion = 3.36 × 10⁵ J/kg.</b>
+<div class="answer">
+m = 500 g = 0.5 kg<br>
+Q = mLf<br>
+Q = 0.5 × 3.36×10⁵<br>
+<b>Answer = 168,000 J = 168 kJ</b>
+</div>
+</div>
+
+<div class="question">
+<b>Q7. Find the heat needed to completely vaporize 1 kg water at 100°C. Latent heat of vaporization = 2.26 × 10⁶ J/kg.</b>
+<div class="answer">
+Q = mLv<br>
+Q = 1 × 2.26×10⁶<br>
+<b>Answer = 2.26 × 10⁶ J = 2.26 MJ</b>
+</div>
+</div>
+
+<button class="back" onclick="show('home')">⬅ Back</button>
+</div>
+</div>
+
+</div>
+
+<script>
+function show(id){
+var pages=document.getElementsByClassName("page");
+
+for(var i=0;i<pages.length;i++){
+pages[i].classList.remove("active");
+}
+
+document.getElementById(id).classList.add("active");
+window.scrollTo(0,0);
+}
+</script>
+
+</body>
+</html>
